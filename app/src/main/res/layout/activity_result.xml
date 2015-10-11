@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="nay.calculator.ResultActivity"
+    android:gravity="center">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/result_title"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:id="@+id/result_title"
+        />
+
+    <TextView android:text="20.215" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_title"
+        android:id="@+id/result_textview"
+        android:layout_gravity="center"
+        android:textSize="70dp" />
+
+
+</RelativeLayout>
